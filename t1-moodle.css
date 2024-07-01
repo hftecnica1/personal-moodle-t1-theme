@@ -1,0 +1,53 @@
+body {
+    font-family: 'Aptos', 'Open Sauce Sans', 'Segoe UI', sans-serif;
+    background-color: #121217;
+    color: #eaeaea;
+  }
+  
+  .main-inner, .navbar.fixed-top, .drawer.drawer-left.show, .drawer.drawer-right.show, .moremenu .nav-tabs {
+    background-color: #2f2f3d;
+    border-bottom: 0px;
+  }
+  
+  .nav-link {
+    text-transform: uppercase;
+  }
+  
+  #region-main, .card-body, .card, .dashboard-card-deck .dashboard-card .dashboard-card-footer, .secondary-navigation .navigation, .description .course-description-item, .activity-item.hiddenactivity {
+    background-color: transparent;
+  }
+  
+  a {
+    color: #cedfef;
+  }
+  
+  .navbar.fixed-top a, .navbar-light .navbar-nav .nav-link, .block .block-cards span.categoryname, .block .block-cards .btn-link, .moremenu .nav-tabs a {
+    color: #eaeaea
+  }
+  
+  .navbar.fixed-top a:hover, .dashboard-card, .block .block-cards .icon, .moremenu .nav-tabs li a:hover {
+    color: #fff;
+    background-color: #4c4c63;
+  }
+  
+  .alert-primary {
+    background-color: #8686af;
+    color: #fff;
+  }
+  
+  .alert-primary i {
+    color: #dbc3ff;
+  }
+  
+  .alert-primary a {
+    color: #ebebeb;
+  }
+  
+  .alert-primary a:hover {
+    color: #fff;
+  }
+  
+  #page-header h1.h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
