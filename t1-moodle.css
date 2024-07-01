@@ -27,7 +27,7 @@
     background-color: #575d62;
   }
   /* Otros arreglos de backgrounds */
-  .generaltable tbody tr:hover {
+  .generaltable tbody tr:hover, .aalink:hover {
     background-color: rgba(255, 255, 255, .075);
   }
 
@@ -97,7 +97,7 @@
   .navbar.fixed-top .divider {
     visibility: hidden;
   }
-  .btn-secondary, .activity-item, .btn-primary:hover, .border-bottom, .path-mod .activity-information .activity-dates, .border-bottom, .path-mod .activity-information .activity-dates, .modal-footer, .btn-primary, #region-main, .card-body, .card, .dashboard-card-deck .dashboard-card .dashboard-card-footer, .secondary-navigation .navigation, .description .course-description-item, .activity-item.hiddenactivity {
+  .btn-secondary, .activity-item, .btn-primary:hover, .border-bottom, .path-mod .activity-information .activity-dates, .border-bottom, .path-mod .activity-information .activity-dates, .modal-footer, .btn-primary, #region-main, .card-body, .card, .dashboard-card-deck .dashboard-card .dashboard-card-footer, .secondary-navigation .navigation, .description .course-description-item, .activity-item.hiddenactivity, .login-container .login-divider, .modal-header, .dropdown-divider {
     border-color: transparent;
   }
   .main-inner, .navbar.fixed-top, .moremenu .nav-tabs, .login-container {
