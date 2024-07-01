@@ -1,160 +1,140 @@
-body, .bg-white {
+  /*    BASE INICIAL DEL TEMA   */
+  body, .bg-white {
     font-family: 'Aptos', 'Open Sauce Sans', 'Segoe UI', sans-serif;
     background-color: #111a20;
     color: #eaeaea;
   }
-  
+
+
+  /*    USANDO COLORES PRIMARY   */
+  .main-inner, .navbar.fixed-top, .moremenu .nav-tabs, .login-container {
+    background-color: #272f35;
+    border-bottom: 0px;
+  }
+  /*Punto medio del color mixed 300 y mixed 200*/
+  .dropdown-menu, .block .block-cards button:hover, .list-group-item:hover, .maincalendar .calendarmonth .clickable:hover, .btn-secondary, .message-app .message.send, .message-app a, .add_block_button a, .nav-tabs .nav-item.show .nav-link {
+    background-color: #4B5157;
+  }
+  .block .block-cards .btn.btn-link.btn-icon:focus, .popover-region-container, .message-app .message.received, .popover {
+    background-color: #575d62;
+  }
+  .drawer.drawer-left, .drawer.drawer-right,.drawer-toggles .drawer-toggler .btn, .message-app, .modal-content, .bg-secondary, .moodle-dialogue-base .moodle-dialogue-wrap {
+    background-color: #272f35;
+  }
+  .message-app .header-container, .message-app .closewidget, .header-container div.bg-white {
+    background-color: #393940;
+  }
+  .message-app .body-container {
+    background-color: #272f35;
+  }
+  .navbar.fixed-top a:hover, .dashboard-card, .moremenu .nav-tabs li a:hover,.navbar.fixed-top a:active, .moremenu .nav-tabs li a:active,.navbar.fixed-top a:focus, .moremenu .nav-tabs li a:focus {
+    color: #fff;
+    background-color: #3e454b;
+  }
+  .alert-primary, .activity-item, .path-mod .activity-header:not(:empty) {
+    background-color: #3e454b;
+    color: #fff;
+  }
+  .generaltable tbody tr:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .075);
+  }
+  .block_recent_activity {
+    background-color: #4B5157;
+  }
+
+
+  /*    USANDO COLORES ACCENT   */
+  a, .text-primary {
+    color: #90cfc6;
+  }
+  .btn-primary:hover {
+    background-color: #90cfc6;
+    border-color: transparent;
+  }
+  .btn-primary {
+    background-color: #5ebbb0;
+    border-color: transparent;
+  }
+  .alert-primary i {
+    color: #90cfc6;
+  }
+  .bg-primary, .badge-primary, .maincalendar .calendarmonth td.today .day-number-circle, .btn-primary {
+    background-color: #90cfc6;
+    color: #111a20;
+  }
+  .bg-primary:active, .badge-primary:active {
+    background-color: #a7d8d1;
+    color: #272f35;
+  }
+  .message-app .list-group .list-group-item:hover .badge-primary, .moremenu .nav-link.active {
+    border-bottom-color: #90cfc6;
+  }
+  .form-control:focus {
+    box-shadow: 0 0 0 .2rem rgba(167, 216, 209, 0.75);
+    color: #fafafa;
+  }
+  .custom-control-input:checked {
+    border-color: #90cfc6;
+    background-color: #90cfc6;
+  }
+
+  /*    ARREGLANDO COLORES DE TEXTO   */
+  .message-app a, .drawer.drawer-left a, .drawer.drawer-right a, .generaltable {
+    color: #eaeaea;
+  }
+  .popover-body {
+    color: #eaeaea;
+  }
+  .navbar.fixed-top a, .navbar-light .navbar-nav .nav-link, .block .block-cards span.categoryname, .block .block-cards .btn-link, .moremenu .nav-tabs a, .icon, .close {
+    color: #eaeaea
+  }
+  .alert-primary a {
+    color: #ebebeb;
+  }
+  .alert-primary a:hover {
+    color: #fff;
+  }
+
+
+  /*    ELIMINANDO DIVIDERS (no mg)   */
+  .navbar.fixed-top .divider {
+    visibility: hidden;
+  }
+  .activity-item {
+    border-color: transparent;
+  }
+  .border-bottom, .path-mod .activity-information .activity-dates {
+    border-color: transparent;
+  }
+  .secondary-navigation .navigation, .course-section {
+    border-top: 0px;
+    border-bottom: 0px;
+  }
+  .modal-footer {
+    border-color: transparent;
+  }
+
+
+  /*    OTROS CAMBIOS   */
   /*Xq tiene esto???*/
   .pagelayout-login #page, .list-group-item {
     background-image: none;
     background-color: transparent;
   }
-  
-  .navbar.fixed-top .divider {
-    visibility: hidden;
-  }
-  
-  .main-inner, .navbar.fixed-top, .moremenu .nav-tabs, .login-container {
-    background-color: #272f35;
-    border-bottom: 0px;
-  }
-  
-  /*Punto medio del color mixed 300 y mixed 200*/
-  .dropdown-menu, .block .block-cards button:hover, .list-group-item:hover, .maincalendar .calendarmonth .clickable:hover, .btn-secondary, .message-app .message.send, .message-app a, .add_block_button a {
-    background-color: #4B5157;
-  }
-  
   .btn-secondary {
     border-color: transparent;
   }
-  
-   .block .block-cards .btn.btn-link.btn-icon:focus, .popover-region-container, .message-app .message.received, .popover {
-     background-color: #575d62;
-   }
-  
-   .form-control, .popover-region-footer-container, .path-mod-assign .gradingtable tr.unselectedrow td{background-color: transparent;}
-  
-  
-  .drawer.drawer-left, .drawer.drawer-right,.drawer-toggles .drawer-toggler .btn, .message-app, .modal-content, .bg-secondary, .moodle-dialogue-base .moodle-dialogue-wrap {
-    background-color: #272f35;
+  .form-control, .popover-region-footer-container, .path-mod-assign .gradingtable tr.unselectedrow td {
+    background-color: transparent;
   }
-  
-  .message-app a, .drawer.drawer-left a, .drawer.drawer-right a, .generaltable {
-    color: #eaeaea;
-  }
-  
-  .message-app .header-container, .message-app .closewidget, .header-container div.bg-white {
-    background-color: #393940;
-  }
-  
-  .message-app .body-container {
-    background-color: #272f35;
-  }
-  
-  .nav-link {
-    text-transform: uppercase;
-  }
-  .popover-body {
-    color: #eaeaea;
-  }
-  
   #region-main, .card-body, .card, .dashboard-card-deck .dashboard-card .dashboard-card-footer, .secondary-navigation .navigation, .description .course-description-item, .activity-item.hiddenactivity {
     background-color: transparent;
   }
-  
-  a, .text-primary {
-    color: #90cfc6;
+  .nav-link {
+    text-transform: uppercase;
   }
-  
-  .activity-item {
-    border-color: transparent;
-  }
-  
-  
-  .btn-primary:hover {
-    background-color: #90cfc6;
-    border-color: transparent;
-  }
-  
-  .btn-primary {
-    background-color: #5ebbb0;
-    border-color: transparent;
-  }
-  
-  .border-bottom, .path-mod .activity-information .activity-dates {
-    border-color: transparent;
-  }
-  
-  
-  .navbar.fixed-top a, .navbar-light .navbar-nav .nav-link, .block .block-cards span.categoryname, .block .block-cards .btn-link, .moremenu .nav-tabs a, .icon, .close {
-    color: #eaeaea
-  }
-  
-  .navbar.fixed-top a:hover, .dashboard-card, .moremenu .nav-tabs li a:hover,.navbar.fixed-top a:active, .moremenu .nav-tabs li a:active,.navbar.fixed-top a:focus, .moremenu .nav-tabs li a:focus {
-    color: #fff;
-    background-color: #3e454b;
-  }
-  
-  .alert-primary, .activity-item, .path-mod .activity-header:not(:empty) {
-    background-color: #3e454b;
-    color: #fff;
-  }
-  
-  .alert-primary i {
-    color: #90cfc6;
-  }
-  
-  .bg-primary, .badge-primary, .maincalendar .calendarmonth td.today .day-number-circle, .btn-primary {
-    background-color: #90cfc6;
-    color: #111a20;
-  }
-  
-  .bg-primary:active, .badge-primary:active {
-    background-color: #a7d8d1;
-    color: #272f35;
-  }
-  
-  .message-app .list-group .list-group-item:hover .badge-primary, .moremenu .nav-link.active {
-    border-bottom-color: #90cfc6;
-  }
-  
-  .alert-primary a {
-    color: #ebebeb;
-  }
-  
-  .alert-primary a:hover {
-    color: #fff;
-  }
-  
-  .generaltable tbody tr:hover {
-    color: #fff;
-    background-color: rgba(255, 255, 255, .075);
-  }
-  
   #page-header h1.h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
-  }
-  
-  .secondary-navigation .navigation, .course-section {
-    border-top: 0px;
-    border-bottom: 0px;
-  }
-  
-  .block_recent_activity {
-    background-color: #4B5157;
-  }
-  
-  .form-control:focus {
-    box-shadow: 0 0 0 .2rem rgba(167, 216, 209, 0.75);
-    color: #fafafa;
-  }
-  
-  .custom-control-input:checked {
-    border-color: #90cfc6;
-    background-color: #90cfc6;
-  }
-  
-  .modal-footer {
-    border-color: transparent;
   }
