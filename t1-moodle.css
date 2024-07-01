@@ -4,6 +4,12 @@
     background-color: #111a20;
     color: #eaeaea;
   }
+  .form-control, .popover-region-footer-container, .path-mod-assign .gradingtable tr.unselectedrow td {
+    background-color: transparent;
+  }
+  #region-main, .card-body, .card, .dashboard-card-deck .dashboard-card .dashboard-card-footer, .secondary-navigation .navigation, .description .course-description-item, .activity-item.hiddenactivity {
+    background-color: transparent;
+  }
 
 
   /*    USANDO COLORES PRIMARY   */
@@ -111,7 +117,7 @@
     border-top: 0px;
     border-bottom: 0px;
   }
-  .modal-footer {
+  .modal-footer, .login-container .login-divider, .modal-header, .dropdown-divider {
     border-color: transparent;
   }
 
@@ -125,14 +131,11 @@
   .btn-secondary {
     border-color: transparent;
   }
-  .form-control, .popover-region-footer-container, .path-mod-assign .gradingtable tr.unselectedrow td {
-    background-color: transparent;
-  }
-  #region-main, .card-body, .card, .dashboard-card-deck .dashboard-card .dashboard-card-footer, .secondary-navigation .navigation, .description .course-description-item, .activity-item.hiddenactivity {
-    background-color: transparent;
-  }
   .nav-tabs .nav-item.show .nav-link {
     border-color:rgba(255, 255, 255, .64);
+  }
+  .aalink:hover {
+    background-color: rgba(255, 255, 255, .075);
   }
   .nav-link {
     text-transform: uppercase;
