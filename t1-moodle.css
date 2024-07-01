@@ -131,6 +131,9 @@
   #region-main, .card-body, .card, .dashboard-card-deck .dashboard-card .dashboard-card-footer, .secondary-navigation .navigation, .description .course-description-item, .activity-item.hiddenactivity {
     background-color: transparent;
   }
+  .nav-tabs .nav-item.show .nav-link {
+    border-color:rgba(255, 255, 255, .64);
+  }
   .nav-link {
     text-transform: uppercase;
   }
