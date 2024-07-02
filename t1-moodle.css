@@ -66,11 +66,11 @@
   a, .text-primary {
     color: #90cfc6;
   }
-  .btn-primary:hover {
+  .btn-primary:hover,.courseindex .courseindex-item.pageitem:hover {
     background-color: #90cfc6;
     border-color: transparent;
   }
-  .btn-primary {
+  .btn-primary, .courseindex .courseindex-item.pageitem {
     background-color: #5ebbb0;
     border-color: transparent;
   }
@@ -88,11 +88,11 @@
   .message-app .list-group .list-group-item:hover .badge-primary, .moremenu .nav-link.active {
     border-bottom-color: #90cfc6;
   }
-  .form-control:focus {
+  .form-control:focus,.custom-control-input:focus ~ .custom-control-label::before, .nav-link:focus,.drawer-toggles .drawer-toggler .btn:focus, .btn:focus, .btn.focus,[role="treeitem"]:not([aria-expanded="true"]):focus {
     box-shadow: 0 0 0 .2rem rgba(167, 216, 209, 0.75);
     color: #fafafa;
   }
-  .custom-control-input:checked {
+  .custom-control-input:checked ~ .custom-control-label::before {
     border-color: #90cfc6;
     background-color: #90cfc6;
   }
