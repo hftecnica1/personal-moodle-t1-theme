@@ -42,6 +42,12 @@
   .message-app .body-container {
     background-color: #272f35;
   }
+  .fp-iconview .fp-filename-field .fp-filename {
+    background-color: #272f35;
+  }
+  select.form-control option {
+    background-color: #272f35;
+  }
   .navbar.fixed-top a:hover, .dashboard-card, .moremenu .nav-tabs li a:hover,.navbar.fixed-top a:active, .moremenu .nav-tabs li a:active,.navbar.fixed-top a:focus, .moremenu .nav-tabs li a:focus {
     color: #fff;
     background-color: #3e454b;
@@ -59,6 +65,10 @@
   }
   .message-app .btn.btn-link.btn-icon:hover {
     background-color: #575d62;
+  }
+  .aalink.focus, a.focus.autolink, .aalink:focus, a.autolink:focus, #page-footer a:not([class]).focus, #page-footer a:not([class]):focus, .arrow_link.focus, .arrow_link:focus, a:not([class]).focus, a:not([class]):focus, .activityinstance > a.focus, .activityinstance > a:focus {
+    background-color: #575d62;
+    box-shadow: 0 0 #d2e8fb,0 0 #343a40;
   }
 
 
@@ -92,6 +102,10 @@
     box-shadow: 0 0 0 .2rem rgba(167, 216, 209, 0.75);
     color: #fafafa;
   }
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #90cfc6;
+    color: #111a20;
+  }
   .custom-control-input:checked ~ .custom-control-label::before {
     border-color: #90cfc6;
     background-color: #90cfc6;
@@ -111,7 +125,7 @@
   .popover-body {
     color: #eaeaea;
   }
-  .navbar.fixed-top a, .navbar-light .navbar-nav .nav-link, .block .block-cards span.categoryname, .block .block-cards .btn-link, .moremenu .nav-tabs a, .icon, .close {
+  .navbar.fixed-top a, .navbar-light .navbar-nav .nav-link, .block .block-cards span.categoryname, .block .block-cards .btn-link, .moremenu .nav-tabs a, .icon, .close, .yui3-button {
     color: #eaeaea
   }
   .alert-primary a {
@@ -126,8 +140,11 @@
   .message-app .message.send, .message-app .message.received {
     color: #eaeaea;
   }
-  .text-muted {
+  .text-muted, .btn-secondary {
     color:#dadada
+  }
+  .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd h3 {
+    color: #eaeaea;
   }
 
 
@@ -148,7 +165,7 @@
   .modal-footer, .login-container .login-divider, .modal-header, .dropdown-divider, .message-app .footer-container .bg-white, .navbar .popover-region-container {
     border-color: transparent;
   }
-  .popover-region-header-container {
+  .popover-region-header-container, .mform fieldset {
     border-bottom-color:transparent;
   }
   .popover-region-footer-container {
@@ -161,17 +178,27 @@
     background-image: none;
     background-color: transparent;
   }
+  .fp-select .fp-thumbnail {
+    background-color: transparent;
+    border-radius: 16px;
+  }
+  .fp-select .fp-thumbnail img {
+    border-color: transparent;
+  }
   .btn-secondary {
     border-color: transparent;
   }
   .nav-tabs .nav-item.show .nav-link {
     border-color:rgba(255, 255, 255, .64);
   }
-  .aalink:hover {
+  .aalink:hover, .btn.btn-icon:hover, .btn.btn-icon:focus {
     background-color: rgba(255, 255, 255, .075);
   }
   .nav-link {
     text-transform: uppercase;
+  }
+  .fp-repo-name {
+    text-transform: initial;
   }
   #page-header h1.h2 {
     text-transform: uppercase;
@@ -182,4 +209,17 @@
   }
   .popover-region-container {
     border-radius: 8px;
+  }
+  img.logo.mr-1 {
+    content: url(https://lh3.googleusercontent.com/jdF_2A0XR8tBt7MHoK3CwjbAZg4-eMZciSJ_-l37627bi8cLilrszrn9l5zazjj7Mvi-a7SWOo4lpZLmkXlljOrlyPnqiP_uGpYgXqyivOaV_QxEEF3_AgZk98ALX8Og0A=w1280);
+    height: 36px;
+  }
+  .activity-item.hiddenactivity .description .course-description-item, .activity-item.hiddenactivity .activityiconcontainer, .activity-item.hiddenactivity .badge {
+    mix-blend-mode: exclusion;
+    filter:opacity(0.7)
+  }
+  /*Hacks para el apartado de editor*/
+  /*Respetemos los colores originales*/
+  div.editor_atto_toolbar button .icon {
+    color:rgb(73,80,87)
   }
