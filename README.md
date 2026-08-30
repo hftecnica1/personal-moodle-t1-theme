@@ -4,4 +4,4 @@ Es un CSS que, a través de [la extensión Stylebot](https://stylebot.dev/), ree
 
 Recursos:
 - [Dark Theme Generator](https://colorffy.com/dark-theme-generator)
-- Color de accent de la escuela: #01a79b
+- Color de accent de la escuela: #016D79 (Modo claro) // #00AFA8 (Modo oscuro) 
