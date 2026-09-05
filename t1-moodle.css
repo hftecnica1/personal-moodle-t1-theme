@@ -57,7 +57,11 @@
     }
     .aalink.focus, a.focus.autolink, .aalink:focus, a.autolink:focus, #page-footer a:not([class]).focus, #page-footer a:not([class]):focus, .arrow_link.focus, .arrow_link:focus, a:not([class]).focus, a:not([class]):focus, .activityinstance>a.focus, .activityinstance>a:focus {
         background-color: rgba(60, 129, 139, .10);
-    box-shadow: 0 -.2rem #d2e8fb, 0 .2rem #343a40;
+    box-shadow: 0 -.2rem #d2e8fb, 0 .2rem #016D79;
+    }
+
+    .drawer-toggles .drawer-toggler .btn:focus {
+        box-shadow: 0 0 0 .2rem rgba(60, 129, 139, .75);
     }
     
     .message-app .list-group .list-group-item:hover {
@@ -74,6 +78,29 @@
     .yui3-skin-sam .yui3-datatable-odd .yui3-datatable-cell {
         background-color: #dfe9eb;
     }
+    
+    .activity-add:hover, .block-add:hover {
+        background-color: #dfe9eb;
+    }
+    
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        background-color: #f1f6f7;
+        
+    }
+    .activity-add, .block-add {
+        border-color: #016D79;
+    }
+    .badge-primary, .maincalendar .calendarmonth td.today .day-number-circle{
+        background-color:#016D79;
+    }
+    /* Eliminando el guion bajo en el footer que flota*/
+    .popover.footer .popover-body .footer-section a {
+        text-decoration:none;
+    }
+    
+    .bg-primary {
+        background-color:#016D79!important;
+    }
     /*
     .alert-primary {
         background-color:#016D79;
@@ -87,6 +114,9 @@
         /* Use text-fill-color to override the browser's default text color */
         -webkit-text-fill-color: #016D79 !important;
     }
+    .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+        color:#016D79;
+    }
 
     /*
         Empieza el modo oscuro con esta propiedad:
@@ -95,3 +125,31 @@
   [data-bs-theme=dark] img.logo.mr-1, [data-bs-theme=dark] img#logoimage  {
     filter:unset;
   }
+
+    [data-bs-theme=dark] .btn-primary, [data-bs-theme=dark] .addtagcoll a, [data-bs-theme=dark] .path-admin-tag .addstandardtags a, [data-bs-theme=dark] .gradereport_history_usp .usp-finish input, [data-bs-theme=dark] .forum-post-footer a, [data-bs-theme=dark] .mod_quiz-next-nav, [data-bs-theme=dark] .addbloglink a, [data-bs-theme=dark] .last-add-menu .dropdown-btn, [data-bs-theme=dark] #siteconfiglink a, [data-bs-theme=dark] #enterlink p:nth-of-type(1) a, [data-bs-theme=dark] #enterlink p:nth-of-type(2) a, [data-bs-theme=dark] #addcontrols input, [data-bs-theme=dark] #page-mod-forum-index .subscription .helplink:nth-of-type(1) a, [data-bs-theme=dark] #page-mod-forum-view .subscription .helplink a {
+        background-color: #00AFA8;
+    }
+    
+    [data-bs-theme=dark] .navbar.navbar-expand .navbar-nav .nav-link {
+        color: #eaeaea!important;
+    }
+    
+    [data-bs-theme=dark] #header.fixed-top .header-menubar .navbar-nav .simplesearchform .btn-open, [data-bs-theme=dark] #header.fixed-top .popover-region .popover-region-toggle i.icon, [data-bs-theme=dark] #header.fixed-top .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle, [data-bs-theme=dark] #header.fixed-top .header-menubar .navbar-nav .editmode-switch-form .input-group label, [data-bs-theme=dark] #header.fixed-top .usermenu .moodle-actionmenu a.dropdown-toggle, [data-bs-theme=dark] #header.fixed-top .header-logo a.navbar-brand img, [data-bs-theme=dark] #header.fixed-top .header-logo a.navbar-brand span, [data-bs-theme=dark] #header.fixed-top .header-menubar .primary-navigation ul.navbar-nav>li>a, [data-bs-theme=dark] #header .popover-region .popover-region-toggle i.icon, [data-bs-theme=dark] .navbar-light.fixed-top .navbar-nav .show>.nav-link, [data-bs-theme=dark] .navbar-light.fixed-top .navbar-nav .active>.nav-link, [data-bs-theme=dark] .navbar-light.fixed-top .navbar-nav .nav-link.show, [data-bs-theme=dark] .navbar-light.fixed-top .navbar-nav .nav-link.active, [data-bs-theme=dark] .header-menubar .navbar-nav .editmode-switch-form .input-group label, [data-bs-theme=dark] .header-menubar .navbar-nav .usermenu .dropdown a#user-menu-toggle {
+        color: #00AFA8!important;
+    }
+    
+    [data-bs-theme=dark] .moremenu .nav-link.active, [data-bs-theme=dark] .moremenu .nav-link.active:focus, [data-bs-theme=dark] .moremenu .nav-link.active:hover, [data-bs-theme=dark] .moremenu .nav-link:hover, [data-bs-theme=dark] .moremenu .nav-link:focus {
+        border-bottom-color: #00AFA8;
+    }
+    
+    [data-bs-theme=dark] .navbar-light .navbar-nav .nav-link:hover, [data-bs-theme=dark] .navbar-light .navbar-nav .nav-link:focus {
+    color: #00AFA8;   
+    }
+    
+    [data-bs-theme=dark] a {
+        color: #00AFA8;
+    }
+    
+    [data-bs-theme=dark] a:hover {
+        color: #5f959d;
+    }
